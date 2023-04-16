@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Green Card</title>
+  </head>
+  <body>
+    <div class="container white">
+      <h1 class="title">Green Card</h1>
+      <div class="content">
+        <form action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <legend>Foydalanuvchi</legend>
+            <div class="wrapper">
+              <label for="ism">Ism</label>
+              <input
+                type="text"
+                name="ismingiz"
+                id="ism"
+                placeholder="ismingiz"
+              />
+            </div>
+
+            <div class="wrapper">
+              <label for="familia">Familia</label>
+              <input
+                type="text"
+                name="familiyangiz"
+                id="familia"
+                placeholder="familiyangiz"
+              />
+            </div>
+
+            <div class="wrapper">
+              <label for="phone">Phone</label>
+              <input
+                type="tel"
+                name="tel nomer"
+                id="phone"
+                placeholder="tel nomeriz"
+              />
+            </div>
+
+            <div class="wrapper">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="email" />
+            </div>
+
+            <div class="wrapper">
+              <label for="date">Tug'ilgan sana</label>
+              <input type="date" name="data" id="date" />
+            </div>
+
+            <div class="wrapper">
+              <label for="file">Pasport scan</label>
+              <input type="file" name="file" id="file" />
+            </div>
+
+            <div class="wrapper">
+              <label for="">Jinsingiz</label>
+              <div class="box">
+                <label for="erkak">Erkak </label>
+                <input type="radio" name="jinsi" id="erkak" value="erkak" />
+
+                <label for="ayol">Ayol</label>
+                <input type="radio" name="jinsi" id="ayol" value="ayol" />
+              </div>
+            </div>
+
+            <div class="wrapper">
+              <label for="color">Sevimli Rang</label>
+              <input type="color" name="rang" id="color" />
+            </div>
+
+            <div class="wrapper">
+              <label for="food">Sevimli Taomingiz</label>
+              <select name="food" id="food">
+                <option value="Osh">Osh</option>
+                <option value="Manti">Manti</option>
+                <option value="Norin" selected>Norin</option>
+                <option value="Honim">Honim</option>
+              </select>
+            </div>
+
+            <div class="wrapper">
+              <label for="teacher">Sevimli O'qtuvchingiz</label>
+              <select name="teacher" id="teacher">
+                <option value="Karimov Izzat">Karimov Izzat</option>
+                <option value="Sobirov Sardor">Sobirov Sardor</option>
+                <option value="Mirzayeva Rano">Mirzayeva Rano</option>
+              </select>
+            </div>
+
+            <div class="wrapper">
+              <label for="bio" class="bio">O'zingiz xaqingizda</label>
+              <textarea
+                name="bio"
+                id="bio"
+                cols="30"
+                rows="10"
+                placeholder="Ozingiz haqingizda"
+              ></textarea>
+            </div>
+
+            <div class="footer">
+              <label for="checkbox">Eslab qolish</label>
+              <input type="checkbox" name="eslab qolish" id="checkbox" />
+            </div>
+
+            <button type="submit">Topshirish</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
